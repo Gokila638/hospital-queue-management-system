@@ -1,12 +1,22 @@
 # Hospital Queue Management System
 
-## Description
-This project uses Circular Queue in C++ to manage hospital patients.
+This project simulates a hospital queue using a **circular queue** in C++. It handles **Emergency** and **Normal** patients separately and serves Emergency patients first.
 
 ## Features
-- Emergency priority
-- Add, Serve, Display, Count, Peek
+- Add patient (Emergency or Normal)
+- Serve patient (Emergency priority)
+- Display all patients in queues
+- Count patients in each queue
+- Peek next patient to be served
+- Exit program
 
+## Data Structure
+- **Circular Queue (FIFO)** with fixed size (`MAX = 5`)  
+- Emergency patients are always served first; Normal patients are served only if there are no emergency patients.
+
+## Sample Console Output (One Example per Option)
+
+### 1. Add Patient
 ## Sample Console Output (One Example per Menu Option)
 
 ### 1. Add Patient
