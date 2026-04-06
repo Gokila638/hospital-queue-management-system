@@ -14,10 +14,7 @@ This project simulates a hospital queue using a **circular queue** in C++. It ha
 - **Circular Queue (FIFO)** with fixed size (`MAX = 5`)  
 - Emergency patients are always served first; Normal patients are served only if there are no emergency patients.
 
-## Sample Console Output (One Example per Option)
-
-### 1. Add Patient
-## Sample Console Output (One Example per Menu Option)
+## Sample Console Output (One Example per 
 
 ### 1. Add Patient
 Enter choice: 1  
